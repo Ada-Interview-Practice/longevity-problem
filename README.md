@@ -63,3 +63,27 @@ Produces
 ```py
 ("Lil Nas X", 3)
 ```
+
+## Notes for the Interviewer
+
+### Clarifying Questions
+
+#### Q: How should I handle invalid input?
+A: You can assume the input will be valid.
+
+#### Q: Will there be duplicate albums in the input?
+A: No.
+
+#### Q: Will there be any albums released by the same artist in the same year?
+A: No.
+
+#### Q: How should I handle empty input? Or an artist with only one album?
+A: You can assume the input will be non-empty and each artist will have at least two albums.
+
+### Hints
+
+- If your candidate is struggling to form an algorithm, encourage them to explain how they would do it by hand. Afterwards help them to see what data structures might be useful.
+
+- If your candidate is struggling with a subpart of the problem (e.g. finding the longest span), encourage them to first focus on writing a solution to a simpler version of the problem that does not include those requirements.
+
+- There are other solid approaches to finding the earliest and last album, for example, sorting each persons list of years and selecting the first and last element.
